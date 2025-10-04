@@ -325,7 +325,7 @@ const Index = () => {
                 <label className="block text-sm font-medium mb-2 text-foreground">Phone</label>
                 <Input 
                   type="tel"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+254 123456789"
                   value={formData.phone}
                   onChange={(e) => setFormData({...formData, phone: e.target.value})}
                 />
